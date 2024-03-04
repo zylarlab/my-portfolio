@@ -45,6 +45,7 @@ nav {
 nav li {
     list-style: none;
     margin-left: 50px;
+    padding-top: 20px;
 
 }
 
@@ -103,9 +104,28 @@ nav a {
 }
 
 /* main section style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+/* main section style */
 .about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 0px;
+    margin: 130px 30px;
+}
+
+.about-info-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.about-info {
+    text-align: center;
 }
