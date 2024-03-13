@@ -194,3 +194,9 @@ main section {
 .resume-item-description {
     color: #757575;
 }
+
+.download-cv {
+    text-align: center;
+    margin: 50px;
+
+}
